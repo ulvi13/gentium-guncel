@@ -1,0 +1,428 @@
+.header{
+    background: black;
+    position: fixed;
+    padding: 30px 100px;
+    z-index:5;
+}
+.header  ul li {
+    display: inline-block;
+    padding: 15px 30px; 
+
+    
+}
+.header ul li a{
+    color: #ffffff;
+    font-size: 22px; 
+    font: bold;  
+    text-decoration: none; 
+    margin: right;
+}
+.header  .logo a{
+font-size: 45px;
+color: white;
+font: bold;
+text-decoration: none; 
+}
+.ilk{
+    background:url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_02.jpg);
+    height:1000px;
+    background-color: black;
+    background-repeat: no-repeat;
+    padding: 30px;
+background-position: center center;
+padding-top:300px;
+}
+.ilk h2{
+    font-size:30px;
+    color: #e9204f;
+    margin-left:20px;
+}
+.button a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    padding: 20px 40px;
+    color: white;
+    }
+    .button {
+        font-size: 15px 25px;
+        margin: 30px 10px;
+    }
+    .button a:hover{
+    background:  #e9204f; 
+    color: white;  
+      text-decoration: none; 
+    }
+    .ilk .head h1{
+        font-size: 85px;
+        color: white;
+        padding: 30px 10px;
+    }
+    .ikon1{
+        color: white;
+        padding: 70px 0;
+        
+    }
+    .ikon1 .ikon2{
+        background: #e9204f;
+        height: 375px;
+    }
+    .ikon1 .ikon3{
+        background:#1b1b1b;
+        height: 375px;
+    }
+    .ikon1 i{
+        padding: 40px;
+    }
+    .ikon1 .fon i{
+        color: white;
+    }
+    .ikon1 p{
+        font-size: 20px;
+        padding:20px;
+    }
+    .ikon1 h4{
+        margin:20px;
+    }
+    .ikon3 i{
+    color: #e9204f;
+    }
+    .ikon1 .pr-ikon1-hr-holder {
+        width: 40%;
+        color: white; 
+    }
+    .ikon3{
+        position: relative;
+    }
+    .ikon1 .fon{
+        background: #e9204f;
+        position: absolute;
+        left:0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.9;
+        display: none;
+    }
+    .ikon3:hover .fon{
+        display: block;
+    }
+    .servis{
+        padding-top: 150px;
+    }
+    .servis h1{
+        font-size:30px;
+        color: #e9204f;
+        margin-left:20px;
+    }
+    .servis h2{
+        font-size: 60px;
+        padding-top: 65px;
+        padding-left: 35px;
+    }
+    .servis .service p{
+        color: #e9204f;
+        font-size: 22px;
+        padding: 0 35px ;
+    }
+    .servis .secim{
+        padding: 10 35px;
+        position: relative;
+    }
+    .arrow {
+        height: 80px;
+        width: 310px;
+        background-color: #747474;
+
+    }
+    .arrow:hover i{
+        animation: anima .5s infinite;
+        background: #e9204f;
+        position: relative;
+        animation-iteration-count: 1
+    }
+    @keyframes anima{
+        0%{
+            left:0px;
+        }
+      100%{
+        left:20px;
+      }  
+    }
+    .secim a{
+        text-decoration: none;
+        color:black;
+    }
+    .secim p{
+        padding: 22px;
+        font-size: 22px;
+    }
+    .servis .div{
+          background: #e9204f;
+        position: absolute;
+        left: 35px;
+        top: 10px;
+        right: 85px;
+        bottom: 10px;
+        display: none;
+    }
+    .secim:hover .div{
+        display: block;
+    }
+    .secim .div a{
+        color: white;
+        text-decoration: none;
+    }
+    .work h1{
+        font-size: 40px;
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+    .work p{
+        font-size: 20px;
+        padding-left: 60px;
+        color: #e9204f;
+    }
+    .button2 a{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.2px;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #e9204f;
+        padding: 15px 15px;
+        color: black;
+        }
+        .button2 {
+            font-size: 15px;   
+             margin: 94px 0;
+        }
+        .button2 a:hover{
+        background:  #e9204f; 
+        color: white;  
+          text-decoration: none; 
+        }
+        .box  .design{
+            background-color: #747474;
+            position: absolute;
+            left:0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.6;
+            display: none;
+        }
+        
+        .box .sekil1{
+         position: relative;
+        }
+        .box .sekil3{
+        position: relative;
+        }
+        .box .sekil2{
+        position: relative;
+        }
+        .sekil1:hover .design{
+          display: block;
+        }
+        .sekil2:hover .design{
+            display: block;
+        }
+        .sekil3:hover .design{
+            display: block;
+        }
+        .box  .design:hover{
+            display: block;
+           }
+           .box p{
+               font-size: 25px;
+               color: white;
+               padding: 150px 100px;
+           }
+           .box p:hover{
+               display: block;
+           }
+           .box img{
+               width: 100%;
+            height: 60%;
+           }
+           .box .sekil1:hover{
+            animation: anim 0.5s;
+        }
+        .box .sekil3:hover{
+            animation: anim 0.5s;
+        }
+        .box .sekil2:hover{
+            animation: anim 0.5s;
+        }
+        
+        @keyframes anim{
+            0%{
+                transform: scale(1);
+            }
+            100%{
+                transform: scale(0.8);
+            }
+        }
+        .about h1{
+            font-size: 40px;
+            padding-top: 60px;
+            padding-left: 60px;
+        }
+        .about p{
+            font-size: 20px;
+            padding-left: 60px;
+            color: #e9204f;
+        }
+        .lorem p{
+            padding-top: 60px;
+        }
+        .history{
+            padding: 70px;
+            margin: 25px;
+        }
+   
+   .clients h2{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 40px;
+   }
+   .clients span{
+    padding-top: 40px;
+    padding-left: 40px;
+    color: #e9204f;
+   }
+   .clients p{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 65%;
+   }
+   .clients h6{
+    padding-top: 100px;
+    padding-left: 40px;
+    font-display: bold;
+   }
+   .sponsor{
+    padding: 120px;
+    padding-top: 25px;
+   }
+   .digital p{
+       position: absolute;
+   }
+   .digital h5{
+       position: absolute;
+   }
+   .digital{
+    filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+   }
+   .digital:hover{
+    filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+   }
+   .responsive p{
+       position: absolute;
+       margin-left: 47px;
+       margin-top: -6px;
+   }
+   .responsive2{
+       margin-top: 96px
+   }
+   .responsive h5{
+    margin-left: 47px;
+    margin-top: -100px;
+   }
+   .responsive2 p{
+    position: absolute;
+    margin-left: 47px;
+    margin-top: -6px;
+}
+.responsive2 h5{
+ margin-left: 47px;
+ margin-top: -100px;
+}
+  .latest{
+      text-align: center;
+  }
+.latest p{
+    color:#e9204f;
+    font-size:20px
+}
+.lastpics{
+    position: relative;
+    width:105%
+}
+.lastpics .yazi{
+    position: absolute;
+    left:0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+.lastpics .lastpic1:hover{
+    animation: animat 0.5s
+}
+.lastpics .lastpic2:hover{
+    animation: animat 0.5s
+}
+.lastpics .lastpic3:hover{
+    animation: animat 0.5s
+}
+@keyframes animat{
+    0%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(0.5)
+    }
+}
+.last .lets{
+    text-align: center;
+    color:white;
+    
+}
+.last{
+    background: #1b1b1b;
+    padding: 30px 40px;
+    padding-top:150px
+}
+.ikon i{
+    color:white;
+    font-size: 20px;
+    padding: 0.7em;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    border-radius: 30px
+}
+.duyme{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    padding: 20px 10px;
+    color: white;
+    
+    
+}
+.last .duyme a{
+    color:white;
+    font-weight: 700;
+    text-decoration:none;
+}
+.bos{
+    background: #161616;
+    padding:60px 250px;
+    color:white
+}
+.son .sonyazi{
+    margin:right;
+    text-align: center
+}
